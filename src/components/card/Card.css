@@ -1,0 +1,25 @@
+.card-container{
+  display: grid;
+  grid-template-columns: 3% 84% 10% 3%;
+  padding: 5px 15px;
+  border-top: 1px solid rgb(226, 221, 221);
+  border-left: 0;
+  border-right: 0;
+  overflow-x: hidden;
+}
+
+.title-tags-container{
+  width: 80%
+}
+
+.sub-title{
+  font-size: 12px;
+  color: rgb(148, 148, 148);
+}
+
+.avatar-image{
+  max-height: 18px;
+  max-width: 18px;
+  border-radius: 50%;
+  cursor: pointer;
+}

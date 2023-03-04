@@ -1,0 +1,35 @@
+.listing{
+ /* border: 1px solid rgb(233, 225, 225); */
+}
+
+.header{
+ border-bottom: 1px solid rgb(233, 225, 225);
+ background-color: #f1e3e3;
+ position: sticky;
+ top:0;
+}
+
+.issues-container{
+ border: 3px solid rgb(233, 225, 225);
+ border-radius: 4px;
+ width: 80%;
+ margin: 20px auto;
+ height: 90vh;
+ overflow-y: auto;
+ position: relative;
+}
+
+.loader{
+ position: absolute;
+ bottom: 20px;
+}
+
+.loading-icon{
+ font-size: 30px;
+}
+
+@media(max-width:1024px) {
+ .issues-container{
+  width: 100%;
+ }
+}

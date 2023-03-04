@@ -1,0 +1,12 @@
+.tag-container{
+ margin-right: 5px;
+ margin-left: 5px;
+ border-radius: 20px;
+ padding-right: 6px;
+ padding-left: 6px;
+ cursor: pointer;
+ white-space: nowrap;
+ font-weight: 600;
+ font-size: 13px;
+ padding-bottom: 2px;
+}
